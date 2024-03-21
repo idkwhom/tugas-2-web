@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0ffdd; /* Warna pink pastel */
+    color: #000; /* Warna teks hitam */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ebebeb; /* Warna pink yang lebih terang */
+    color: #ff66a3; /* Warna teks pink */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(152, 148, 148);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff66a3; /* Warna teks pink */
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff66a3; /* Warna pink untuk judul */
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.certificate-item {
+    margin-bottom: 20px;
+    text-align: center; /* Tengahkan elemen */
+}
+
+.certificate-item img {
+    max-width: 100%; /* Ukuran maksimum sesuai lebar container */
+    border-radius: 8px; /* Agar memiliki sudut bulat */
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    margin-bottom: 10px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.certificate-item img {
+    max-width: 400px; /* Memperkecil ukuran foto sertifikat */
+    border-radius: 8px;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.education-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -15px; /* Jarak dari teks */
+    width: 3px; /* Lebar garis */
+    height: 100%; /* Tinggi sesuai konten */
+    background-color: #ff66a3; /* Warna garis */
+}
+
+/* Ganti warna teks judul */
+.education-item h3 {
+    color: #ff66a3; /* Warna yang sama dengan garis */
+}
